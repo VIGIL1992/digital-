@@ -1,0 +1,1031 @@
+/* //For Smartphone */
+@media only screen and (max-width: 768px){
+    .image-wrapper { 
+        z-index: 5; 
+        width: 10rem; 
+        border-top-left-radius: 5px; 
+        border-top-right-radius: 5px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        padding-top: 2rem; 
+        padding-left: 0rem; 
+        padding-right: 2rem; 
+        display: block; 
+        position: absolute; 
+        top: auto; 
+        bottom: 0; 
+        left: 15rem; 
+        right: 0%; 
+        overflow: hidden;
+    }
+    .thumb-project-1, .thumb-project-2, .thumb-project-3{
+        display: none;
+    }   
+}
+
+
+
+/* //For Desktop */
+@media only screen and (min-width: 768px){
+    .image-wrapper { 
+        z-index: 5; 
+        width: 22rem; 
+        border-top-left-radius: 5px; 
+        border-top-right-radius: 5px; 
+        margin-bottom: 4.5rem ;
+        margin-left: auto; 
+        margin-right: auto; 
+        padding-top: 2rem; 
+        padding-left: 2rem; 
+        padding-right: 2rem; 
+        display: block; 
+        position: absolute; 
+        top: auto; 
+        bottom: 0; 
+        left: 15rem; 
+        right: 0%; 
+        overflow: hidden;
+    }
+    .thumb-project-1-mobile, .thumb-project-2-mobile, .thumb-project-3-mobile{
+        display: none;
+    }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap'); 
+* { 
+    box-sizing:  border-box;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+.snipcss-feMJd{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+section { 
+    display: block;
+} 
+
+.section-projekt { 
+    z-index: 1; 
+    width: 100%; 
+    height: auto; 
+    grid-column-gap: 2em; 
+    grid-row-gap: 2em; 
+    background-color: #080c17;
+    /* background-color: rgba(72,80,71,0);  */
+    flex-flow: column wrap; 
+    grid-template-rows: auto auto; 
+    grid-template-columns: 1fr 1fr; 
+    grid-auto-columns: 1fr; 
+    align-content: center; 
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 7rem; 
+    padding-bottom: 10rem; 
+    display: flex; 
+    position: relative; 
+    overflow: visible;
+} 
+
+.page-wrapper { 
+    height: auto;
+} 
+
+body { 
+    margin:   0; 
+    min-height:  100%; 
+    color:  #000; 
+    background-color:  #fff; 
+    font-family:  Poppins,Arial,sans-serif; 
+    font-size:  1rem; 
+    line-height:  1.5;
+    cursor: none; 
+} 
+
+.body { 
+    letter-spacing: .03em; 
+    cursor: auto; 
+    background-image: linear-gradient(46deg,#191919 20%,#485047); 
+    font-family: Poppins,Arial,sans-serif; 
+    overflow: visible;
+} 
+
+html { 
+    -ms-text-size-adjust:   100%; 
+    -webkit-text-size-adjust:   100%; 
+    font-family:   sans-serif;
+    height:  100%;
+    font-size: calc(0.7777777777777778rem + 0.2777777777777778vw);
+} 
+
+@media screen and (max-width: 2000px){ 
+  html { 
+    font-size: calc(0.7777777777777778rem + 0.2777777777777778vw);
+  } 
+}     
+
+.page-padding { 
+    z-index: 1; 
+    width: 100%; 
+    height: 100%; 
+    align-self: auto; 
+    padding-left: 5%; 
+    padding-right: 5%; 
+    position: relative;
+} 
+
+.container-large { 
+    width: 100%; 
+    height: 100%; 
+    max-width: 80rem; 
+    grid-column-gap: 2em; 
+    grid-row-gap: 0em; 
+    text-align: center; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin: auto; 
+    display: flex; 
+    position: static;
+} 
+
+.projekt-list-wrapper { 
+    width: 100%; 
+    margin-top: 5rem;
+} 
+
+.line-divider-animated { 
+    width: 100%; 
+    height: 1px; 
+    max-width: 80rem; 
+    transform-origin: 0%; 
+    text-align: left; 
+    background-color: #485047; 
+    align-self: auto; 
+    align-items: center; 
+    margin-left: 0; 
+    margin-right: 0; 
+    display: block; 
+    position: relative;
+} 
+
+.projekt-list { 
+    border: 1px #000; 
+    position: relative;
+} 
+
+.projekt-list-item { 
+    height: 100%; 
+    border: 1px #485047; 
+    flex-flow: column; 
+    align-content: center; 
+    justify-content: center; 
+    align-items: flex-start; 
+    padding-top: 0; 
+    padding-bottom: 0; 
+    display: flex; 
+    position: relative; 
+    overflow: visible;
+} 
+
+.w-layout-grid { 
+    grid-row-gap: 16px; 
+    grid-column-gap: 16px; 
+    grid-template-rows: auto auto; 
+    grid-template-columns: 1fr 1fr; 
+    grid-auto-columns: 1fr; 
+    display: grid;
+} 
+
+._3-row-grid { 
+    z-index: 5; 
+    width: 100%; 
+    height: 100%; 
+    max-height: none; 
+    min-height: 100%; 
+    grid-column-gap: 0rem; 
+    grid-row-gap: 1rem; 
+    text-align: left; 
+    flex: 1; 
+    grid-template-rows: auto; 
+    grid-template-columns: 1.5fr 1fr .75fr; 
+    grid-auto-columns: 1fr; 
+    grid-auto-flow: column; 
+    align-content: space-between; 
+    justify-content: space-between; 
+    align-self: stretch; 
+    align-items: center; 
+    justify-items: start; 
+    padding-top: 4.5rem; 
+    padding-bottom: 4.5rem; 
+    display: grid; 
+    position: relative; 
+    overflow: visible;
+} 
+
+.hide-desktop { 
+    display: none;
+} 
+
+.line-divider-animated.hide-desktop { 
+    display: none;
+} 
+
+.circle-wrapper { 
+    z-index: 0; 
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    top: 0%; 
+    bottom: 0%; 
+    left: 0%; 
+    right: 0%; 
+    overflow: hidden;
+} 
+
+.grid-content { 
+    grid-column-gap: 0rem; 
+    grid-row-gap: 0rem; 
+    flex-flow: wrap; 
+    align-content: center; 
+    align-items: flex-start; 
+    display: flex; 
+    position: static;
+} 
+
+.grid-content.left { 
+    color: #fff; 
+    flex-flow: column wrap; 
+    align-items: flex-start; 
+    display: flex; 
+    position: relative;
+} 
+
+#w-node-e2110931-4687-e19a-0abb-aada305186fe-72aaaa17 { 
+    grid-area: span 1/span 1/span 1/span 1; 
+    align-self: center;
+} 
+
+#w-node-e2110931-4687-e19a-0abb-aada30518702-72aaaa17 { 
+    grid-area: span 1/span 1/span 1/span 1; 
+    align-self: center; 
+    justify-self: center;
+} 
+
+.grid-content.right { 
+    border: 1px #000; 
+    align-content: center;
+} 
+
+#w-node-e2110931-4687-e19a-0abb-aada30518705-72aaaa17 { 
+    grid-area: span 1/span 1/span 1/span 1; 
+    align-self: auto; 
+    justify-self: end;
+} 
+
+.bg-circle-move { 
+    z-index: 0; 
+    width: 30rem; 
+    height: 30rem; 
+    transform-origin: 100% 0; 
+    /* background-color: rgba(72,80,71,.54);  */
+    border-top-left-radius: 9999rem; 
+    border-bottom-right-radius: 9999rem; 
+    border-bottom-left-radius: 99999rem; 
+    margin-left: auto; 
+    margin-right: auto; 
+    position: absolute; 
+    top: 0%; 
+    bottom: auto; 
+    left: auto; 
+    right: 0%;
+} 
+
+.margin-xsmall { 
+    margin: 1rem;
+} 
+
+.margin-bottom { 
+    margin-top: 0; 
+    margin-left: 0; 
+    margin-right: 0;
+} 
+
+.margin-bottom.margin-xsmall { 
+    margin-top: 0; 
+    margin-left: 0; 
+    margin-right: 0;
+} 
+
+p { 
+    margin-top:  0; 
+    margin-bottom:  1rem;
+} 
+
+.text-size-small { 
+    color: #000; 
+    letter-spacing: .03rem; 
+    text-transform: none; 
+    font-size: .875rem;
+} 
+
+.text-color-white { 
+    color: #fff;
+} 
+
+.text-size-small.text-color-white { 
+    /* color: #ddd;  */
+    color: black;
+    text-align: left; 
+    letter-spacing: .03rem; 
+    font-weight: 400; 
+    line-height: 1.8;
+} 
+
+ 
+
+a { 
+    background-color:  transparent;
+    color: #fff; 
+    cursor: none; 
+    border-color: #000; 
+    font-weight: 600; 
+    text-decoration: none;
+} 
+
+.w-inline-block { 
+    max-width: 100%; 
+    display: inline-block;
+} 
+
+.text-link { 
+    color: #000; 
+    margin-bottom: 0; 
+    position: relative; 
+    overflow: hidden;
+} 
+
+a:active,a:hover { 
+    outline: 0;
+} 
+
+.text-weight-bold { 
+    font-weight: 700;
+} 
+
+.text-size-large { 
+    text-align: left; 
+    font-size: 2rem; 
+    font-weight: 500; 
+    line-height: 1.6;
+} 
+
+.is-gradient { 
+    -webkit-text-fill-color: transparent; 
+    background-color: black;
+    /* background-color: #ddd;  */
+    /* background-image: linear-gradient(146deg,#d3dcd6,rgba(72,80,71,.75));  */
+    -webkit-background-clip: text; 
+    background-clip: text;
+} 
+
+.text-size-large.text-weight-bold { 
+    text-align: left; 
+    letter-spacing: .03rem; 
+    font-weight: 700;
+} 
+
+img { 
+    display:  inline-block;
+    border:   0;
+    max-width:  100%; 
+    vertical-align:  middle; 
+} 
+
+.shadow { 
+    box-shadow: 0 10px 9px rgba(0,0,0,.4);
+} 
+
+.projekt-img { 
+    border-top-left-radius: 5px; 
+    border-top-right-radius: 5px;
+} 
+
+.projekt-img.shadow { 
+    border: 1px #000;
+} 
+
+.style-link { 
+    grid-column-gap: .25rem; 
+    grid-row-gap: .25rem; 
+    color: #999; 
+    padding-top: 0; 
+    padding-bottom: 0; 
+    text-decoration: underline;
+} 
+
+.style-link.default { 
+    width: 100%; 
+    height: 100%; 
+    grid-column-gap: .25rem; 
+    grid-row-gap: .25rem; 
+    color: #191919; 
+    letter-spacing: .03em; 
+    text-transform: uppercase; 
+    justify-content: center; 
+    align-items: center; 
+    padding-top: .2rem; 
+    padding-bottom: .2rem; 
+    font-size: 1rem; 
+    text-decoration: none; 
+    display: flex; 
+    position: relative;
+} 
+
+.style-link.focus { 
+    width: 100%; 
+    height: 100%; 
+    grid-column-gap: .25rem; 
+    grid-row-gap: .25rem; 
+    color: #191919; 
+    letter-spacing: .03rem; 
+    text-transform: uppercase; 
+    justify-content: center; 
+    padding-top: .2rem; 
+    padding-bottom: .2rem; 
+    text-decoration: none; 
+    display: flex; 
+    position: absolute;
+} 
+
+.link-text { 
+    color: #191919; 
+    text-decoration: none;
+} 
+
+.link-text.text-color-white { 
+    /* color: #ddd;  */
+    color: black;
+    text-transform: uppercase;
+} 
+
+.icon-embed-xsmall { 
+    width: 1.5rem; 
+    height: 1.5rem; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: flex;
+} 
+
+.icon-embed-xsmall.text-color-white { 
+    /* color: #ddd; */
+    color: black;
+} 
+
+.w-embed:before,.w-embed:after { 
+    content: " "; 
+    grid-area: 1/1/2/2; 
+    display: table;
+} 
+
+.w-embed:after { 
+    clear: both;
+} 
+
+svg:not(:root) { 
+    overflow: hidden;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-BKM2D.style-BKM2D {  
+   opacity: 1;  
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-ytvGk.style-ytvGk {  
+   width: 100%;  
+    height: 0.994318px;  
+}  
+#w-node-e2110931-4687-e19a-0abb-aada305186fe-72aaaa17.style-FQY9O {  
+   transform: translate3d(0.68436rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+    will-change: transform;  
+}  
+#style-2wDAq.style-2wDAq {  
+   transform: translate3d(0px, 87.1189%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-10.2959deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+    will-change: transform;  
+}  
+#w-node-e2110931-4687-e19a-0abb-aada30518705-72aaaa17.style-Pi5Ff {  
+   transform: translate3d(-0.68436rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+    will-change: transform;  
+}  
+#style-keMU9.style-keMU9 {  
+   opacity: 1;  
+    transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-HWPz2.style-HWPz2 {  
+   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-f3ZaH.style-f3ZaH {  
+   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-t3nTZ.style-t3nTZ {  
+   width: 100%;  
+    height: 1px;  
+}  
+#style-zII8s.style-zII8s {  
+   transform: translate3d(0rem, 0%, 0px) scale3d(0.32204, 0.32204, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+    will-change: transform;  
+}  
+#style-r9zog.style-r9zog {  
+   opacity: 1;  
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-xBiUt.style-xBiUt {  
+   width: 100%;  
+    height: 0.994318px;  
+}  
+#w-node-e2110931-4687-e19a-0abb-aada305186fe-72aaaa17.style-Zld5C {  
+   transform: translate3d(0rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-2cnRT.style-2cnRT {  
+   transform: translate3d(0px, 110%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-13deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#w-node-e2110931-4687-e19a-0abb-aada30518705-72aaaa17.style-LAJFe {  
+   transform: translate3d(0rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-avSY7.style-avSY7 {  
+   opacity: 1;  
+    transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-B3osr.style-B3osr {  
+   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-NtanS.style-NtanS {  
+   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-Vislp.style-Vislp {  
+   width: 100%;  
+    height: 1px;  
+}  
+#style-21mba.style-21mba {  
+   transform: translate3d(0rem, 0%, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-iZ3db.style-iZ3db {  
+   opacity: 1;  
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-pJoZm.style-pJoZm {  
+   width: 100%;  
+    height: 0.994318px;  
+}  
+#w-node-e2110931-4687-e19a-0abb-aada305186fe-72aaaa17.style-stV47 {  
+   transform: translate3d(0rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-VQDpA.style-VQDpA {  
+   transform: translate3d(0px, 110%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-13deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#w-node-e2110931-4687-e19a-0abb-aada30518705-72aaaa17.style-UWWsP {  
+   transform: translate3d(0rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-jX4rY.style-jX4rY {  
+   opacity: 1;  
+    transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-arn81.style-arn81 {  
+   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-JWa6t.style-JWa6t {  
+   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-copej.style-copej {  
+   width: 100%;  
+    height: 1px;  
+}  
+#style-QcjQB.style-QcjQB {  
+   transform: translate3d(0rem, 0%, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-SEDgI.style-SEDgI {  
+   opacity: 1;  
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-3SNHA.style-3SNHA {  
+   width: 100%;  
+    height: 0.994318px;  
+}  
+#w-node-e2110931-4687-e19a-0abb-aada305186fe-72aaaa17.style-HjcCL {  
+   transform: translate3d(0rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-hVk7J.style-hVk7J {  
+   transform: translate3d(0px, 110%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-13deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#w-node-e2110931-4687-e19a-0abb-aada30518705-72aaaa17.style-af7Vh {  
+   transform: translate3d(0rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-okHZ7.style-okHZ7 {  
+   opacity: 1;  
+    transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-naPdS.style-naPdS {  
+   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-pSpCo.style-pSpCo {  
+   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-FN2fK.style-FN2fK {  
+   width: 100%;  
+    height: 1px;  
+}  
+#style-ZZQQq.style-ZZQQq {  
+   transform: translate3d(0rem, 0%, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-QDf5m.style-QDf5m {  
+   opacity: 0;  
+}  
+#style-pFfHc.style-pFfHc {  
+   width: 0%;  
+}  
+#w-node-e2110931-4687-e19a-0abb-aada305186fe-72aaaa17.style-tfX5w {  
+   transform: translate3d(0rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-AeyAS.style-AeyAS {  
+   transform: translate3d(0px, 110%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-13deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#w-node-e2110931-4687-e19a-0abb-aada30518705-72aaaa17.style-XjCG5 {  
+   transform: translate3d(0rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-QXRqS.style-QXRqS {  
+   opacity: 1;  
+    transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-L3OFC.style-L3OFC {  
+   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-djwpS.style-djwpS {  
+   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-Ei95n.style-Ei95n {  
+   width: 100%;  
+    height: 1px;  
+}  
+#style-BZQvc.style-BZQvc {  
+   transform: translate3d(0rem, 0%, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-WPmEe.style-WPmEe {  
+   opacity: 0;  
+}  
+#style-3a5vN.style-3a5vN {  
+   width: 0%;  
+}  
+#w-node-e2110931-4687-e19a-0abb-aada305186fe-72aaaa17.style-4ojZw {  
+   transform: translate3d(0rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-L6KxR.style-L6KxR {  
+   transform: translate3d(0px, 110%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-13deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#w-node-e2110931-4687-e19a-0abb-aada30518705-72aaaa17.style-tBrXd {  
+   transform: translate3d(0rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-8TctM.style-8TctM {  
+   opacity: 1;  
+    transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-fccPQ.style-fccPQ {  
+   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-5CsGY.style-5CsGY {  
+   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-AYEeI.style-AYEeI {  
+   width: 100%;  
+    height: 1px;  
+}  
+#style-LKXX1.style-LKXX1 {  
+   transform: translate3d(0rem, 0%, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-fOCZe.style-fOCZe {  
+   opacity: 0;  
+}  
+#style-ikVbd.style-ikVbd {  
+   width: 0%;  
+}  
+#w-node-e2110931-4687-e19a-0abb-aada305186fe-72aaaa17.style-ej65p {  
+   transform: translate3d(0rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-2jlHz.style-2jlHz {  
+   transform: translate3d(0px, 110%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-13deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#w-node-e2110931-4687-e19a-0abb-aada30518705-72aaaa17.style-zAjv8 {  
+   transform: translate3d(0rem, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-XTvoZ.style-XTvoZ {  
+   opacity: 1;  
+    transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-IIhY6.style-IIhY6 {  
+   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-59PjW.style-59PjW {  
+   transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-8Si84.style-8Si84 {  
+   width: 100%;  
+    height: 1px;  
+}  
+#style-fMFgq.style-fMFgq {  
+   transform: translate3d(0rem, 0%, 0px) scale3d(0, 0, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);  
+    transform-style: preserve-3d;  
+}  
+#style-mDaOK.style-mDaOK {  
+   width: 0%;  
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Image Hover display*/
+
+/*#thumbwrap {*/
+/*	position:relative;*/
+/*}*/
+/*.thumb span { */
+/*	visibility:hidden;*/
+/*}*/
+/*.thumb:hover, .thumb:hover span { */
+/*	visibility:visible;*/
+/*	top:0;*/
+/*	z-index:1;*/
+/*}*/
+
+/* End Image Hover display*/
+
+
+
+.thumb-project-1 {
+    width: 320px;
+    height: 320px;
+    margin: 140px auto;
+}
+
+.thumb-project-1 figure {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: 
+		url("https://d13yacurqjgara.cloudfront.net/users/269311/screenshots/1508393/the_optimist_lives_on_by_huanle-d6yprp1_o_1x.jpg");
+    background-size: 0, cover;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+}
+
+.thumb-animate-1:hover figure {
+    transform: rotateX(80deg);
+    transform-origin: bottom;
+}
+.thumb-project-1 figure:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    background: inherit;
+    background-size: cover, cover;
+    background-position: bottom;
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+}
+.thumb-project-1 figure span {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    font: bold 12px/36px "Open Sans";
+    text-align: center;
+    transform: rotateX(-89.99deg);
+    transform-origin: top;
+    z-index: 1;
+}
+.thumb-project-1 figure:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    opacity: 0.15;
+    transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+    transform-origin: bottom;
+}
+
+.thumb-project-1:hover figure:before {
+    opacity: 1;
+    transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+
+
+
+.thumb-project-2 {
+    width: 320px;
+    height: 320px;
+    margin: 140px auto;
+}
+
+.thumb-project-2 figure {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: 
+		url("https://d13yacurqjgara.cloudfront.net/users/269311/screenshots/1508393/the_optimist_lives_on_by_huanle-d6yprp1_o_1x.jpg");
+    background-size: 0, cover;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+}
+
+.thumb-animate-2:hover figure {
+    transform: rotateX(80deg);
+    transform-origin: bottom;
+}
+.thumb-project-2 figure:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    background: inherit;
+    background-size: cover, cover;
+    background-position: bottom;
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+}
+.thumb-project-2 figure span {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    font: bold 12px/36px "Open Sans";
+    text-align: center;
+    transform: rotateX(-89.99deg);
+    transform-origin: top;
+    z-index: 1;
+}
+.thumb-project-2 figure:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    opacity: 0.15;
+    transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+    transform-origin: bottom;
+}
+
+.thumb-project-2:hover figure:before {
+    opacity: 1;
+    transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
+
+
+
+.thumb-project-3 {
+    width: 320px;
+    height: 320px;
+    margin: 140px auto;
+}
+
+.thumb-project-3 figure {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:  
+		url("https://d13yacurqjgara.cloudfront.net/users/269311/screenshots/1508393/the_optimist_lives_on_by_huanle-d6yprp1_o_1x.jpg");
+    background-size: 0, cover;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+}
+
+.thumb-animate-3:hover figure {
+    transform: rotateX(80deg);
+    transform-origin: bottom;
+}
+.thumb-project-3 a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+    background: inherit;
+    background-size: cover, cover;
+    background-position: bottom;
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+}
+.thumb-project-3 figure span {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    font: bold 12px/36px "Open Sans";
+    text-align: center;
+    transform: rotateX(-89.99deg);
+    transform-origin: top;
+    z-index: 1;
+}
+.thumb-project-3 figure:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    opacity: 0.15;
+    transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+    transform-origin: bottom;
+}
+
+.thumb-project-3:hover figure:before {
+    opacity: 1;
+    transform: rotateX(0) translateZ(-60px) scale(0.85);
+}
